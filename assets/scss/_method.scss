@@ -1,0 +1,21 @@
+
+
+.method-section {
+
+    .single-method {
+        margin-bottom: 50px;
+
+        .title {
+            font-size: 48px;
+            font-weight: 700;
+            color: $black;
+            margin-bottom: 40px;
+        }
+
+        p {
+            font-size: 24px;
+            line-height: 32px;
+            color: $black;
+        }
+    }
+}

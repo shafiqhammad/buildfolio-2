@@ -1,0 +1,35 @@
+// Font Family
+$font: 'Helvetica Neue', sans-serif;
+
+
+// Colors ---------------
+$white: #fff;
+$black: #000;
+$gray: #f5f5f5;
+$body-bg: #F4F7FC;
+
+
+// Theme Color
+$theme-color: #000;
+
+$border-color: #ddd;
+
+//Body Color
+$body-color: #bebebe;
+
+
+// Heading Color
+$heading-color: #1C1A1A;
+
+
+
+
+// Responsive Variables
+$desktop: 'only screen and (min-width: 1400px)';
+$laptop: 'only screen and (min-width: 1200px) and (max-width: 1399px)';
+$lg : 'only screen and (min-width: 992px) and (max-width: 1199px)';
+$md:'only screen and (min-width: 768px) and (max-width: 991px)';
+$xs:'(max-width: 767px)';
+$sm: 'only screen and (min-width: 480px) and (max-width: 767px)';
+
+

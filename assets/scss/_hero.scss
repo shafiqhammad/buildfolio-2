@@ -1,0 +1,30 @@
+
+
+.hero-section {
+    background: url('../img/hero-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 200px 0px;
+
+    .hero-content-wrapper {
+
+        .hero-img {
+            margin-bottom: 20px;
+
+            img {
+                border-radius: 50%;
+            }
+        }
+
+        .hero-content {
+
+            h1 {
+                font-size: 48px;
+                font-weight: 700;
+                color: $black;
+            }
+        }
+    }
+}

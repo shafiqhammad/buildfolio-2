@@ -1,0 +1,100 @@
+
+
+.about-section {
+    background: $gray;
+    padding-top: 300px;
+    margin-top: -150px;
+    padding-bottom: 350px;
+
+    @media #{$md} {
+        margin-top: -200px;
+        padding-bottom: 280px;
+    }
+    @media #{$xs} {
+        margin-top: -200px;
+        padding-bottom: 280px;
+    }
+
+    .heading {
+        text-align: center;
+
+        h2 {
+            font-size: 48px;
+            color: $black;
+            margin-bottom: 50px;
+            line-height: 55px;
+
+            @media #{$xs} {
+                font-size: 36px;
+                line-height: 46px;
+            }
+        }
+
+        p {
+            font-size: 24px;
+            line-height: 32px;
+            color: $black;
+            margin-bottom: 100px;
+
+            @media #{$xs} {
+                font-size: 20px;
+                line-height: 25px;
+            }
+        }
+    }
+
+    .single-work {
+        background: $white;
+        padding: 25px;
+        margin-bottom: 30px;
+
+        .time {
+            font-size: 20px;
+            text-transform: uppercase;
+            color: $body-color;
+            padding-bottom: 10px;
+        }
+
+        .position {
+            font-size: 24px;
+            color: $black;
+            position: relative;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+
+            &::after {
+                content: '';
+                position: absolute;
+                width: 100px;
+                height: 1px;
+                background: $black;
+                bottom: 0;
+                left: 0;
+            }
+        }
+
+        .work-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .work-link {
+                a {
+                    font-size: 25px;
+                    color: $black;
+
+                    i {
+                        @include transition(.3s);
+                    }
+
+                    &:hover {
+
+                        i {
+                            @include transform(rotate(360deg));
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

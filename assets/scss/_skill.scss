@@ -1,0 +1,35 @@
+
+
+.skill-section {
+    margin-bottom: 100px;
+
+    .skill-wrapper {
+
+        .single-skill {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+
+            .title {
+                flex: 1;
+
+                h4 {
+                    font-size: 24px;
+                    color: $black;
+                }
+            }
+
+            .progress {
+                flex: 1;
+                height: 14px;
+                border-radius: 0px;
+                padding: 4px;
+
+                .progress-bar {
+                    background: $black;
+                }
+            }
+        }
+    }
+}
